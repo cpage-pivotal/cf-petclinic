@@ -8,7 +8,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.13</version>
+    <version>3.2.9</version>
   </parent>
   <name>petclinic</name>
 
@@ -27,15 +27,6 @@
     <jacoco.version>0.8.12</jacoco.version>
 
   </properties>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.30</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
